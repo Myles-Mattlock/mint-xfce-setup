@@ -4,19 +4,19 @@
 sudo cp plank.desktop /etc/xdg/autostart
 sudo cp -r themes ~/.local/share/plank/
 # Remove obslete packages
-sudo apt remove atril* parole* xarchiver* xsane* xterm* xfburn* exfalso* -yq
+sudo apt remove atril* parole* xarchiver* xsane* xterm* xfburn* exfalso* -y
 
-sudo apt purge atril* parole* xarchiver* xsane* xterm* xfburn* exfalso* -yq
+sudo apt purge atril* parole* xarchiver* xsane* xterm* xfburn* exfalso* -y
 
-sudo apt autoremove -yq
+sudo apt autoremove -y
 
 # Update packages list
 sudo apt update
 
-sudo apt upgrade -yq
+sudo apt upgrade -y
 
 # Add base packages
-sudo apt install file-roller grub-customizer unzip evince neofetch plank htop vlc libdvd-pkg rhythmbox kodi pulseeffects pavucontrol nemo papirus-icon-theme fonts-noto-color-emoji fonts-firacode fonts-font-awesome micro gufw gdebi htop xfce4-clipman -yq
+sudo apt install file-roller grub-customizer unzip evince neofetch plank htop vlc libdvd-pkg rhythmbox kodi pulseeffects pavucontrol nemo papirus-icon-theme fonts-noto-color-emoji fonts-firacode fonts-font-awesome micro gufw gdebi htop xfce4-clipman -y
 
 # Setting up the dpkg
 sudo dpkg-reconfigure libdvd-pkg
@@ -38,10 +38,10 @@ fc-cache -vf
 
 # Download Nordic Theme
 cd /usr/share/themes/
-git clone https://github.com/EliverLara/Nordic.git
+sudo git clone https://github.com/EliverLara/Nordic.git
 
 # Ms-fonts
-sudo apt install ttf-mscorefonts-installer -yq
+sudo apt install ttf-mscorefonts-installer -y
 
 # Layan Cursors
 #cd "$HOME/"
