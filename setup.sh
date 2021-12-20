@@ -4,9 +4,7 @@
 sudo cp plank.desktop /etc/xdg/autostart
 sudo cp -r themes ~/.local/share/plank/
 # Remove obslete packages
-sudo apt remove atril* parole* xarchiver* xsane* xterm* xfburn* exfalso* -y
-
-sudo apt purge atril* parole* xarchiver* xsane* xterm* xfburn* exfalso* -y
+sudo apt remove atril* parole* xarchiver* xsane* xterm* xfburn* exfalso* catfish* xreader* gnome-disk-utility* gnome-logs* sticky* gucharmap* seahorse* onboard* firefox* xfce4-whiskermenu-plugin xfce4-xkb-plugin drawing pix* hexchat* webapp-manager thunderbird* celluloid* libreoffice*
 
 sudo apt autoremove -y
 
@@ -16,7 +14,7 @@ sudo apt update
 sudo apt upgrade -y
 
 # Add base packages
-sudo apt install file-roller grub-customizer unzip evince neofetch plank htop vlc libdvd-pkg rhythmbox kodi pulseeffects pavucontrol nemo papirus-icon-theme fonts-noto-color-emoji fonts-firacode fonts-font-awesome micro gufw gdebi htop xfce4-clipman -y
+sudo apt install mousepad file-roller grub-customizer unzip evince neofetch plank htop vlc libdvd-pkg rhythmbox kodi pulseeffects pavucontrol nemo papirus-icon-theme fonts-noto-color-emoji fonts-firacode fonts-font-awesome micro gufw gdebi htop xfce4-clipman -y
 
 # Setting up the dpkg
 sudo dpkg-reconfigure libdvd-pkg
@@ -28,6 +26,9 @@ sudo gdebi GitHubDesktop-linux.deb -n
 sudo gdebi google-chrome-stable_current.deb -n
 sudo gdebi teams.deb -n
 
+#Adding libreoffice-fresh
+cd LibreOffice_7.2.4.1_Linux_x86-64_deb/DEBS/
+sudo dpkg -i *.deb
 # Make Theme folders
 mkdir -p ~/.themes ~/.fonts
 
