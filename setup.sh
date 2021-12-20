@@ -4,8 +4,8 @@
 sudo cp plank.desktop /etc/xdg/autostart
 sudo cp -r themes ~/.local/share/plank/
 # Remove obslete packages
-sudo apt remove atril* parole* xarchiver* xsane* xterm* xfburn* exfalso* catfish* xreader* gnome-disk-utility* gnome-logs* sticky* gucharmap* seahorse* onboard* firefox* xfce4-whiskermenu-plugin xfce4-xkb-plugin drawing pix* hexchat* webapp-manager thunderbird* celluloid* libreoffice* -y
-sudo apt purge atril* parole* xarchiver* xsane* xterm* xfburn* exfalso* catfish* xreader* gnome-disk-utility* gnome-logs* sticky* gucharmap* seahorse* onboard* firefox* xfce4-whiskermenu-plugin xfce4-xkb-plugin drawing pix* hexchat* webapp-manager thunderbird* celluloid* libreoffice* -y
+sudo apt remove atril* parole* xarchiver* xsane* xterm* xfburn* exfalso* catfish* xreader* gnome-disk-utility* gnome-logs* sticky* gucharmap* seahorse* onboard* firefox* xfce4-whiskermenu-plugin xfce4-xkb-plugin drawing pix* hexchat* webapp-manager thunderbird* celluloid* libreoffice* xed* -y
+sudo apt purge atril* parole* xarchiver* xsane* xterm* xfburn* exfalso* catfish* xreader* gnome-disk-utility* gnome-logs* sticky* gucharmap* seahorse* onboard* firefox* xfce4-whiskermenu-plugin xfce4-xkb-plugin drawing pix* hexchat* webapp-manager thunderbird* celluloid* libreoffice* xed* -y
 
 sudo apt autoremove -y
 
