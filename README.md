@@ -1,15 +1,15 @@
-# Debian-Setup
-Debian customizations from Myles Mattlock
+# mint-xfce-setup
+Linux Mint customizations from Myles Mattlock
  
 ## Requirements
-Debian bullseye (debian 11)
-xfce4
+Linux mint xfce 20.2 or higher (not tested with older versions)
 
+Or Linix mint to have xfce installed
 ### Base Stuff - Root
 
 _Run as shown below_
 ```
-git clone https://github.com/Myles-Mattlock/Linux-Setup
-cd Linux-Setup/
+git clone https://github.com/Myles-Mattlock/mint-xfce-setup
+cd mint-xfce-setup/
 ./setup.sh
 ```
