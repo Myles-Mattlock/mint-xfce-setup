@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Copying and moving files to the right locations 
-sudo cp plank.desktop /etc/xdg/autostart
-sudo cp -r themes ~/.local/share/plank/
+#sudo cp plank.desktop /etc/xdg/autostart
+#sudo cp -r themes ~/.local/share/plank/
 # Remove obslete packages
-sudo apt remove atril* parole* xarchiver* xsane* xterm* xfburn* exfalso* catfish* xreader* gnome-disk-utility* gnome-logs* sticky* gucharmap* seahorse* onboard* firefox* xfce4-whiskermenu-plugin xfce4-xkb-plugin drawing pix* hexchat* webapp-manager thunderbird* celluloid* libreoffice* xed* -y
-sudo apt purge atril* parole* xarchiver* xsane* xterm* xfburn* exfalso* catfish* xreader* gnome-disk-utility* gnome-logs* sticky* gucharmap* seahorse* onboard* firefox* xfce4-whiskermenu-plugin xfce4-xkb-plugin drawing pix* hexchat* webapp-manager thunderbird* celluloid* libreoffice* xed* -y
+sudo apt remove atril* parole* xarchiver* xsane* xterm* xfburn* exfalso* catfish* xreader* gnome-disk-utility* gnome-logs* sticky* gucharmap* seahorse* onboard* xfce4-whiskermenu-plugin xfce4-xkb-plugin drawing pix* hexchat* webapp-manager thunderbird* celluloid* libreoffice* xed* -y
+sudo apt purge atril* parole* xarchiver* xsane* xterm* xfburn* exfalso* catfish* xreader* gnome-disk-utility* gnome-logs* sticky* gucharmap* seahorse* onboard* xfce4-whiskermenu-plugin xfce4-xkb-plugin drawing pix* hexchat* webapp-manager thunderbird* celluloid* libreoffice* xed* -y
 
 sudo apt autoremove -y
 
@@ -15,7 +15,7 @@ sudo apt update
 sudo apt upgrade -y
 
 # Add base packages
-sudo apt install mousepad file-roller grub-customizer unzip evince neofetch plank htop vlc libdvd-pkg rhythmbox kodi pulseeffects pavucontrol nemo papirus-icon-theme fonts-noto-color-emoji fonts-firacode fonts-font-awesome micro gufw gdebi htop xfce4-clipman -y
+sudo apt install grub-customizer unzip evince neofetch plank htop vlc libdvd-pkg rhythmbox kodi pulseeffects pavucontrol nemo fonts-noto-color-emoji fonts-firacode fonts-font-awesome gdebi -y
 
 # Setting up the dpkg
 sudo dpkg-reconfigure libdvd-pkg
@@ -44,12 +44,6 @@ sudo git clone https://github.com/EliverLara/Nordic.git
 
 # Ms-fonts
 sudo apt install ttf-mscorefonts-installer -y
-
-# Layan Cursors
-#cd "$HOME/"
-#git clone https://github.com/vinceliuice/Layan-cursors
-#cd Layan-cursors
-#sudo ./install.sh
 
 #Finish off with a reboot
 echo "System will reboot in 10 seconds"

@@ -2,7 +2,7 @@
 Linux Mint customizations from Myles Mattlock
  
 ## Requirements
-Linux mint xfce 20.2 or higher (not tested with older versions)
+Linux mint 20.2 or higher (not tested with older versions)
 
 Or Linix mint to have xfce installed
 ### Base Stuff - Root
