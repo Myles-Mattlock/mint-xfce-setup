@@ -3,8 +3,8 @@
 # Copying and moving files to the right locations 
 #sudo cp plank.desktop /etc/xdg/autostart
 # Remove obslete packages
-sudo apt remove atril* parole* xarchiver* xsane* xterm* xfburn* exfalso* catfish* xreader* gnome-disk-utility* gnome-logs* sticky* gucharmap* seahorse* onboard* xfce4-whiskermenu-plugin xfce4-xkb-plugin drawing pix* hexchat* webapp-manager thunderbird* celluloid* libreoffice* xed* -ybr
-sudo apt purge atril* parole* xarchiver* xsane* xterm* xfburn* exfalso* catfish* xreader* gnome-disk-utility* gnome-logs* sticky* gucharmap* seahorse* onboard* xfce4-whiskermenu-plugin xfce4-xkb-plugin drawing pix* hexchat* webapp-manager thunderbird* celluloid* libreoffice* xed* -y
+sudo apt remove atril* parole* xarchiver* xsane* xterm* xfburn* exfalso* catfish* gnome-disk-utility* gnome-logs* gucharmap* seahorse* onboard* xfce4-whiskermenu-plugin xfce4-xkb-plugin drawing pix* hexchat* thunderbird* celluloid* libreoffice* -y
+sudo apt purge atril* parole* xarchiver* xsane* xterm* xfburn* exfalso* catfish* gnome-disk-utility* gnome-logs* gucharmap* seahorse* onboard* xfce4-whiskermenu-plugin xfce4-xkb-plugin drawing pix* hexchat* thunderbird* celluloid* libreoffice* -y
 
 sudo apt autoremove -y
 
